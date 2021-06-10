@@ -16,5 +16,4 @@ while (userGuess !== MY_AGE) {
     userGuess = parseInt(prompt('What is my age?'))
   }
   guessNum++
-  cosole.log(userGuess))
 }
