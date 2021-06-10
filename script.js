@@ -5,16 +5,16 @@ let lowhi
 
 while (userGuess !== MY_AGE) {
   if (userGuess > MY_AGE) {
-    lowhi = "lower"
+    lowhi = 'lower'
   } else {
-    lowhi = "higher"
+    lowhi = 'higher'
   }
   console.log(lowhi)
   if (guessNum !== 0) {
   userGuess = parseInt(prompt(`Try Again!\nWhat is my age?\nHint: My age is ${lowhi} than your guess.`))
   } else {
-    userGuess = parseInt(prompt("What is my age?"))
-  })
+    userGuess = parseInt(prompt('What is my age?'))
+  }
   guessNum++
   cosole.log(userGuess))
 }
